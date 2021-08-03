@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--icono del sitio-->
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico" />
+    <!--estilos letras-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <!--borrar estilos predeterminados-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--hoja de estilos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--animaciones AOS-->
+    <!--iconos-->
+    <script src="https://kit.fontawesome.com/6cdd219a42.js" crossorigin="anonymous"></script>
+
+    <title>Telemedicina</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo" data-aos="zoom-in-down" data-aos-duration="2000">
+            <img src="img/logo.jpg" alt="logo de telemedicina" width="350">
+        </div>
+        <div class="sesion" data-aos="zoom-in-down" data-aos-duration="2000">
+            <i class="fas fa-hospital-user fa-2x icono"></i>
+            <button id="boton" class="boton"><i class="fas fa-sort-down icono" title="opciones"></i></button>
+            <div class="opciones" id="opciones">
+                <ul>
+                    <li><a href="sesiones/sesionPaciente.html">Paciente</a></li>
+                    <li><a href="sesiones/sesionMedico.html">Personal Médico</a></li>
+                    <li><a href="sesiones/sesionAdministrativo.html">Personal Administrativo</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="activo"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="nosotros.html"><i class="fas fa-users"></i> Nosotros</a></li>
+            <li><a href="pedirHora.html"><i class="far fa-calendar-alt"></i> Pedir Hora</a></li>
+            <li><a href="contacto.html"><i class="fas fa-at"></i> Contactanos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="main">
+            <div class="doctor">
+                <h4>Medicina General</h4>
+                <h5>Es el primer paso para el diagnóstico</h5>
+                <img src="img/doctor3.jpg" alt="doctores">
+            </div>
+            <div class="ofrecemos">
+                <div class="acordion" data-aos="zoom-in-down" data-aos-duration="2000" data-aos-delay="300">
+                    <button class="acordiones">
+                        Atencion 24/7/365
+                    </button>
+                    <img src="img/247.png" width="30" alt="atencion 24/7">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.<br></p>
+                    <button class="verMas">
+                        Ver Más
+                    </button>
+                    <div class="masInfo">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nobis doloremque, eos quos magnam
+                        fuga voluptas soluta modi ad enim, aliquam amet officiis itaque repellendus, nostrum in alias
+                        explicabo mollitia.
+                    </div>
+                </div>
+                <div class="acordion" data-aos="zoom-in-down" data-aos-duration="2000" data-aos-delay="1200">
+                    <button class="acordiones">
+                        Consultorio Virtual
+                    </button>
+                    <img src="img/consultorioVirtual.jpg" width="70" alt="consultorio virtual">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat<br> </p>
+                    <button class="verMas">
+                        Ver Más
+                    </button>
+                    <div class="masInfo">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate ratione adipisci explicabo
+                        atque? Corrupti recusandae esse fugiat sed aspernatur minus, delectus error! Magni reiciendis
+                        mollitia voluptas nulla, rem accusamus cum?
+                    </div>
+                </div>
+                <div class="acordion" data-aos="zoom-in-down" data-aos-duration="2000" data-aos-delay="1500">
+                    <button class="acordiones">
+                        Resultados por email
+                    </button>
+                    <img src="img/resultadosEmail.png" width="50" alt="resultados via email">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.0<br></p>
+                    <button class="verMas">
+                        Ver Más
+                    </button>
+                    <div class="masInfo">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe quos porro corporis molestias
+                        temporibus excepturi placeat ullam perferendis, tempora soluta voluptate, ex aut ratione
+                        consequatur? Necessitatibus eveniet debitis aperiam voluptatem!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a href="otros/terminosCondiciones.pdf" target="_blank">Términos y Condiciones</a> | <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=archilagraciela@gmail.com" target="_blank">Diseñado por:
+            Graciela Archila</a>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

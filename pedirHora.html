@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--icono del sitio-->
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico" />
+    <!--estilos letras-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <!--borrar estilos predeterminados-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--hoja de estilos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--animaciones AOS-->
+    <!--iconos-->
+    <script src="https://kit.fontawesome.com/6cdd219a42.js" crossorigin="anonymous"></script>
+    <title>Pedir Hora</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo" data-aos="zoom-in-down" data-aos-duration="2000">
+            <img src="img/logo.jpg" alt="logo de telemedicina" width="350">
+        </div>
+        <div class="sesion" data-aos="zoom-in-down" data-aos-duration="2000">
+            <i class="fas fa-hospital-user fa-2x icono"></i>
+            <button id="boton" class="boton"><i class="fas fa-sort-down icono" title="opciones"></i></button>
+            <div class="opciones" id="opciones">
+                <ul>
+                    <li><a href="sesiones/sesionPaciente.html">Paciente</a></li>
+                    <li><a href="sesiones/sesionMedico.html">Personal Médico</a></li>
+                    <li><a href="sesiones/sesionAdministrativo.html">Personal Administrativo</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+            <li><a href="nosotros.html"><i class="fas fa-users"></i> Nosotros</a></li>
+            <li><a href="pedirHora.html" class="activo"><i class="far fa-calendar-alt"></i> Pedir Hora</a></li>
+            <li><a href="contacto.html"><i class="fas fa-at"></i> Contactanos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="main">
+            <div class="pasos" data-aos="zoom-in-down" data-aos-duration="2000">
+                <div class="paso1"><a href="">1</a></div>
+                <div class="raya">  </div>
+                <div class="paso"><a href="">2</a></div>
+                <div class="raya">   </div>
+                <div class="paso"><a href="">3</a></div>
+            </div>
+            <div class="afiliado" data-aos="zoom-in-down" data-aos-duration="2000">
+                <form action="" method="">
+                    <input type="radio" name="si" id="si">
+                    <label for="siAfil">Si Soy Afiliado</label><br>
+                    <input type="radio" name="no" id="no">
+                    <label for="noAfil">No Soy Afiliado</label>
+                </form>
+            </div>
+ 
+        </div>
+    </main>
+    <footer>
+        <a href="otros/terminosCondiciones.pdf" target="_blank">Términos y Condiciones</a> | <a href=
+    "https://mail.google.com/mail/?view=cm&fs=1&to=archilagraciela@gmail.com" target="_blank">Diseñado por: Graciela Archila</a>
+    </footer>
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
